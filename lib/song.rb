@@ -15,4 +15,7 @@ class Song
     @@count
   end
   
+  def self.genre
+    Song.all.each do |genre|
+      
 end
